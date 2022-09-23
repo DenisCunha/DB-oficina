@@ -28,8 +28,8 @@ CREATE TABLE IF NOT EXISTS `DBcar` (
   PRIMARY KEY (`car_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
-INSERT INTO `DBcar` (`car_id`, `customer_id`, `email`, `telephone`, `address`, `document`, `car`, `date_added` ) VALUES
-(1, 'Jorge Amado', 'teste@teste.com.br', '9744552255', 'Rua Direita, 100', '99955544422', 1, '2022-09-23 14:40:00'),
-(2, 'Machado de Assis', 'teste2@teste.com.br', '1188554488', 'Rua Esqueda, 4520', '44455566622', 2, '2022-09-23 14:40:00'),
-(3, 'Carlos Drummoound de Andrade', 'teste3@teste.com.br', '45988775544', 'Rua Central, 987', '32255445588',  3, '2022-09-23 14:40:00');
+INSERT INTO `DBcar` (`car_id`, `customer_id`, `board`, `color`, `year`) VALUES
+(1, 1, 'Corsa', 'Azul', '2010'),
+(2, 2, 'Gol', 'Prata', '2016'),
+(3, 3, 'Mercedez C 180', 'Branco', '2015');
 
